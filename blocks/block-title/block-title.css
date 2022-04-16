@@ -1,0 +1,11 @@
+.block-title {
+	margin: 0 0 43px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}

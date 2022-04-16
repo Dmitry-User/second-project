@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hungry people</title>
+	<link rel="stylesheet" href="styles/normalise.css">
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<header class="header">
+		<img class="header__bg-image" src="./images/header-bg.jpg" alt="">
+		<nav class="navigation">
+			<div class="navigation__left-section">
+				<ul class="navigation__links">
+					<li class="navigation__box-link"><a href="#" class="navigation__link">Home</a></li>
+					<li class="navigation__box-link"><a href="#" class="navigation__link">About</a></li>
+					<li class="navigation__box-link"><a href="#" class="navigation__link">Team</a></li>
+					<li class="navigation__box-link"><a href="#" class="navigation__link">Booking</a></li>
+				</ul>
+			</div>
+			<img src="./images/logo.svg" alt="" class="logo">
+			<div class="navigation__right-section">
+				<ul class="navigation__links">
+					<li class="navigation__box-link"><a href="#" class="navigation__link">Menu</a></li>
+					<li class="navigation__box-link"><a href="#" class="navigation__link">Galery</a></li>
+					<li class="navigation__box-link"><a href="#" class="navigation__link">Events</a></li>
+					<li class="navigation__box-link"><a href="#" class="navigation__link">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="header__content">
+			<p class="header__schedule"><span class="header__schedule-rotate">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</span></p>
+			<div class="header__container">
+				<p class="block-title block-title_header">Restaurant</p>
+				<h1 class="header__title">Hungry people</h1>
+				<div class="seporator"></div>
+				<div class="header__buttons">
+					<button class="button button_active button_margin_left">Book table</button>
+					<button class="button">Explore</button>
+				</div>
+			</div>
+			<ul class="header__social-links">
+				<li><a href="#" class="header__social-link" target="_blank"><img src="./images/facebook.svg" alt=""></a></li>
+				<li><a href="#" class="header__social-link" target="_blank"><img src="./images/twitter.svg" alt=""></a></li>
+				<li><a href="#" class="header__social-link" target="_blank"><img src="./images/instagram.svg" alt=""></a></li>
+			</ul>
+		</div>
+	</header>
+	<section class="about">
+		<div class="section-content section-content_margin_right">
+			<h2 class="section-title">About us</h2>
+			<div class="seporator"></div>
+			<h3 class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h3>
+			<p class="section-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+		</div>
+		<img src="./images/about-img.jpg" alt="" class="about__image image-style">
+	</section>
+	<section class="team">
+		<img src="./images/special-bg.jpg" alt="" class="team__image-bg">
+		<div class="team__wrapper">
+			<h2 class="block-title">Our team</h2>
+			<div class="team__content-wrapper">
+				<img src="./images/master-img.jpg" alt="" class="team__image image-style">
+				<div class="section-content section-content_margin_left">
+					<h3 class="section-title section-title_theme_dark">Master chef</h3>
+					<div class="seporator"></div>
+					<p class="section-subtitle section-subtitle_theme_dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+					<p class="section-text section-text_theme_dark">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reserve">
+		<div class="reserve__wrapper">
+			<div class="reserve__content">
+				<h2 class="section-title">Book a table</h2>
+				<div class="seporator"></div>
+				<form action="" class="reserve__form">
+					<label><input type="text" name="name" placeholder="Name" class="reserve__input"></label>
+					<label><input type="email" name="email" id="email" placeholder="Email" class="reserve__input"></label>
+					<label><input type="tel" name="phone" id="phone" placeholder="Phone" class="reserve__input"></label>
+					<div class="select-wrapper">
+						<label><select name="people" id="people" class="select">
+							<option value="0" label="People" selected disabled>0</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+						</select></label>
+					</div>
+					<label><input type="text" name="date" id="data" placeholder="Data(mm/dd)" class="reserve__input"></label>
+					<div class="select-wrapper">
+						<label><input type="text" name="time" id="time" placeholder="Time" class="reserve__input"></label>
+					</div>
+					<label class="button-form"><button type="button" class="button button_active">Book now</button></label>
+				</form>
+			</div>
+			<img src="./images/reserve-img.jpg" alt="" class="reserve__image image-style">
+		</div>	
+		<p class="reserve__shedule-contact">Mon - Fri: <b>8PM - 10PM</b>, Sat - Sun: <b>8PM - 3AM</b>, Phone: <b>+40 729 131 637/+40 726 458 782</b></p>
+	</section>
+	<section class="specialties">
+		<img src="./images/specialll-bg.jpg" alt="" class="specialties__image-bg">
+		<div class="specialties__wrapper">
+			<h2 class="block-title">specialties</h2>
+			<div class="specialties__content-wrapper">
+				<img src="./images/Rectangle.jpg" alt="" class="specialties__image image-style">
+				<div class="section-content section-content_margin_left">
+					<h3 class="section-title section-title_theme_dark">chocolate pancakes</h3>
+					<div class="seporator"></div>
+					<p class="section-subtitle section-subtitle_theme_dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+					<p class="section-text section-text_theme_dark">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
