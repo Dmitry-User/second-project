@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url(../vendor/normalise.css);
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_active/button_active.css);
@@ -66,7 +67,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 133px;
+	width: 8vw;
 	height: 100px;
 }
 .navigation__link {
@@ -89,7 +90,7 @@ body {
 	/* height: 260px; */
 	margin: 0;
 	position: relative;
-	
+
 }
 .header__schedule-rotate {
 	position: absolute;
@@ -149,7 +150,7 @@ li:last-child .header__social-link {
 	display: flex;
 	max-width: 1440px;
 	margin: 0 auto;
-	padding: 100px 0 100px 7vw;
+	padding: 100px 7vw 100px;
 	font-family: 'Open Sans', sans-serif;
 }
 .team {
@@ -161,7 +162,7 @@ li:last-child .header__social-link {
 	max-width: 1440px;
 	margin: 0 auto;
 	box-sizing: border-box;
-	padding: 43px 100px 100px;
+	padding: 43px 7vw 100px;
 }
 
 .team__image-bg {
@@ -179,7 +180,7 @@ li:last-child .header__social-link {
 	justify-content: flex-end;
 }
 
-.reserve {	
+.reserve {
 	max-width: 1440px;
 	margin: 0 auto;
 	box-sizing: border-box;
@@ -189,18 +190,17 @@ li:last-child .header__social-link {
 .reserve__wrapper {
 	display: flex;
 	align-items: center;
-	max-width: 1440px;
-	margin: 0 auto;
 }
 .reserve__content {
+  width: 600px;
 	margin: 0 7vw 0 0;
 }
 .reserve__form {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 10px;
-	width: 600px;
-	margin: 20px 0 0 0;
+	width: 100%;
+	margin: 25px 0 0 0;
 }
 .button-form {
 	grid-column-start: 1;
@@ -284,7 +284,7 @@ li:last-child .header__social-link {
 	max-width: 1440px;
 	margin: 0 auto;
 	box-sizing: border-box;
-	padding: 43px 100px 100px;
+	padding: 43px 7vw 100px;
 }
 .specialties__content-wrapper {
 	display: flex;
